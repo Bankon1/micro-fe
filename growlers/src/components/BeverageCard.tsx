@@ -2,6 +2,7 @@ import React from "react";
 import { SimpleGrid, Progress, Text, Button, Box } from "@chakra-ui/react";
 
 import { Beverage } from "../types";
+import { addToCart } from "../store";
 
 const BeverageCard = ({ beverage }: { beverage: Beverage }) => (
   <SimpleGrid
@@ -41,7 +42,7 @@ const BeverageCard = ({ beverage }: { beverage: Beverage }) => (
       </Text>
       <Progress hasStripe value={beverage.level} mt={3} />
       <Box mt={3} align="right">
-        <Button>Add To Cart</Button>
+        <Button onClick={() => addToCart(beverage)}>Add To Cart</Button>
       </Box>
     </div>
   </SimpleGrid>

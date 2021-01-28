@@ -6,6 +6,9 @@ import Search from "./components/Search";
 import Taps from "./components/Taps";
 import Cart from "./components/Cart";
 
+import { load } from "./store";
+load("hv-taplist");
+
 import "./index.css";
 
 const H3 = ({ children }) => (

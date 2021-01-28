@@ -1,5 +1,5 @@
 {
-  "name": "wp5-starter-ts",
+  "name": "wp5-starter-react-ts",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
@@ -29,12 +29,11 @@
     "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.0.3",
-    "@emotion/react": "^11.1.2",
+    "@chakra-ui/react": "^1.1.6",
+    "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
-    "framer-motion": "^2.9.5",
+    "framer-motion": "^3.2.2-rc.1",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "valtio": "^0.6.3"
+    "react-dom": "^16.13.0"
   }
 }
